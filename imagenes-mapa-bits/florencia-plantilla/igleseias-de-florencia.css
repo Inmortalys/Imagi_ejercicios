@@ -1,0 +1,37 @@
+@charset "utf8";
+html{
+    background-color: hsl(69, 10%, 75%);
+    font-family: sans-serif;
+    font-size: 150%;
+    text-align: justify;
+
+}
+h1{
+    color: hsl(240, 65%, 25%);
+    text-align: right;
+    text-transform: uppercase;
+    letter-spacing: 50px;
+    font-weight: 900;
+}
+h2{
+    color: white;
+    background-color: hsl(68, 29%, 30%);
+    clear: both;
+}
+p.center{
+    text-align: center;
+}
+img.izq{
+    float: left;
+    margin-right: 10px;
+    margin-bottom: 10px;
+}
+img.der{
+    float: right;
+}
+adress{
+    clear: both;
+}
+strong{
+    font-style: oblique;
+}
