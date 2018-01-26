@@ -1,0 +1,35 @@
+@charset "utf8";
+
+body{
+    background-color: hsl(187, 100%, 60%);
+    font-family: sans-serif;
+}
+
+h1{
+    color: hsl(187, 100%, 20%);
+    text-transform: uppercase;
+    text-align: center;
+    font-size: 400%;
+    letter-spacing: 30px;
+    margin: 0%;
+    padding: 0%;
+}
+p{
+    background-color: hsl(187, 100%, 40%);
+    border: hsl(187, 100%, 20%) dashed;
+    border-width: 5px;
+    font-style: oblique;
+    width: 250px;
+    height: 250px;
+    font-size: 25px;
+    padding: 10px;
+    float: left;
+    overflow: auto;
+    margin: 10px 10px;
+}
+p::first-letter{
+    font-size: 75px;
+    color:  hsl(187, 100%, 20%);
+    font-style: normal;
+    float: left;
+}

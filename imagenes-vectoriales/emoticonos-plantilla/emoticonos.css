@@ -1,0 +1,40 @@
+@charset "utf8";
+html{
+    background-color: hsl(45, 92%, 95%);
+}
+
+h1{
+    font-family: sans-serif;
+    font-size: 400%;
+    text-align: center;
+    text-transform: uppercase;
+    margin-top: 3%;
+}
+
+p{
+    font-family: sans-serif;
+    font-size: 200%;
+    text-align: justify;
+    margin-left: 20%;
+    margin-right: 20%;
+
+}
+pre{
+    border: black 5px solid;
+    padding: 0px;
+    margin-left: 10%;
+    margin-right: 10%;
+    font-size: 200%;
+    background-color: hsl(0, 0%, 93%);
+
+}
+obli{
+    font-style: oblique;
+}
+cite{
+    font-family: sans-serif;
+}
+img.izq{
+    float: left;
+    margin-right: 10px;
+}
